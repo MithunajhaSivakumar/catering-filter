@@ -1,0 +1,23 @@
+.catering {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .catering_panelList-wrap,
+  .catering_panel-wrap,
+  .catering_list-wrap {
+    overflow-y: auto;
+  }
+  
+  .catering_panelList-wrap {
+    flex: 1;
+    display: flex;
+  }
+  .catering_panel-wrap {
+    flex-basis: 280px;
+    padding: 1rem;
+  }
+  .catering_list-wrap {
+    flex: 1;
+    padding: 1rem;
+  }
